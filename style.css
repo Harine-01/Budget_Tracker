@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form input, .form select, .form button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.totals p {
+    font-weight: bold;
+}
+
+.filter {
+    margin: 10px 0;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.income {
+    background: #d4edda;
+    color: #155724;
+}
+
+.expense {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.delete {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
